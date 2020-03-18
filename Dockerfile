@@ -3,6 +3,7 @@ FROM node:13
 MAINTAINER luffy.ja@gmail.com
 
 ENV TZ="Asia/Shanghai" HOME="/yapi"
+ENV LANG="C.UTF-8" LANGUAGE="C.UTF-8" LC_ALL="C.UTF-8"
 
 RUN mkdir ${HOME}
 WORKDIR ${HOME}
