@@ -26,3 +26,13 @@ docker-compose up -d
 docker-compose down
 docker-compose up -d
 ```
+
+## 额外
+
+每次插件调整过之后需要在服务器 vendors 目录执行
+
+```bash
+ykit pack -m
+```
+
+并且重新启动服务器。
